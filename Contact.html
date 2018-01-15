@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="restaurantStyles.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+#meat{
+  background-color: aquamarine;
+  height: 80%;
+  width:100%;
+}
+a:visited{color:red}
+a:hover{font-weight: bold}
+.active{
+  text-decoration: none;
+}
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+	font-weight: bold;
+margin:4px;
+}
+
+#been {
+
+  left:60px;
+  margin: 10px;
+}
+#day {
+ 
+  left:100px;
+  margin: 30px;
+  text-align: center;
+}
+//p{
+  //  font-weight: bold;
+//}
+
+#submit{
+ 
+   left:170px;
+   top:50%;
+  margin: 20px;
+}
+
+form{
+  text-align: center;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="header">
+<h1 align = "center"> Bob's Burgers</h1>
+<hr>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="banner">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <div class="carousel-inner">
+            <div class="item active">
+                <h1>We're opening a new location!</1>
+            </div>
+            <div class="item">
+              <h1>We're rolling out our seasonal menu, with special options for this season.</h1>
+            </div>
+            <div class="item">
+                <h1>The Drink of the Month is SG Special Brew.</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ul  class="nav nav-pills">
+      <li>
+         <a  href="Homepage.html"><span class="glyphicon glyphicon-home"></span></a>
+      </li>
+      <li><a href="menu.html">Menu</a>
+      </li>
+      <li class="active"><a href="Contact.html"">Contact us</a>
+      </li>
+    </ul>
+
+<div id="meat">
+  <br>
+<form>
+<label>Name:  </label>
+<input type="text" name="Name"><br>
+<label>Email: </label>
+<input type="text" name="Email"><br>
+<label>Phone: </label>
+<input type="text" name="Phone"><br>
+<label>Reason for inquiry: </label>
+<select>
+	<option value="Catering">Catering</option>
+  <option value="Private Party">Private Party</option>
+  <option value="Feedback">Feedback</option>
+  <option value="Other">Other</option>
+</select><br>
+<label>Additional Information: </label>
+  <textarea rows="5" cols="30">
+</textarea><br>
+ <div id="been">Have you been to the restaurant?
+  <input type="radio" name="answer" value="no"> no
+  <input type="radio" name="answer" value="yes"> Yes <br>
+</div>
+<div id="day"> 
+<p>Best days to contact you:  </p>
+<input type="checkbox" name="Day" value="Monday"> M
+  <input type="checkbox" name="Day" value="Tuesday" > T
+  <input type="checkbox" name="Day" value="Wednesday"> W
+  <input type="checkbox" name="Day" value="Thursday"> Th
+<input type="checkbox" name="Day" value="Friday" checked> F<br>
+</div>
+
+<div id="submit">
+<input type="submit" value="Submit">
+</div>
+</form>
+</div>
+
+<div id="footer">
+<br>
+<p align = "center">19985 Lake Rd, Rocky River, OH 44116</p>
+<p align = "center">216-932-5643</p>
+</div>
+</body>
+</html>
